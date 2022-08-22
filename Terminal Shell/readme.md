@@ -1,3 +1,5 @@
+# Terminal Shell
+
 This project was an assignment from my Systems Programming class at Stevens. 
 
 This project utilizies the language C and practices involving writing headers for methods, writing a makefile to link, and compile all nessesary files and executables, and using signal handlers to catch interruption commands like ctrl c.
