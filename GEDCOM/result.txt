@@ -1,0 +1,88 @@
+Error: US42: Date Provided 1965-07-32 is not legitimate
+Error: US42: Date Provided 1955-11-31 is not legitimate
+Error: US42: Date Provided 2002-05-32 is not legitimate
+Error: Individual: I36: US23: Name Mrunal /Smith/ and Birthday 1996-04-11 are not unique.
+Error: Individual: I37: US23: Name Manisha /Smith/ and Birthday 1960-05-8 are not unique.
+Error: Individual: I3: US22: Duplicate ID was provided
+Error: Family: F1: US22: Duplicate ID was provided
+Error: US42: Date Provided 2016-02-30 is not legitimate
+Error: Family: F5: US25: First Name Manisha and Birthday 1960-05-8 are not unique in family.
+Error: Family: F6: US05: Married 1947-04-1 After Husband I7's Death 1946-08-6
+Error: Family: F6: US05: Married 1947-04-1 After Wife I8's Death 1946-06-10
+Error: US42: Date Provided 2018-02-29 is not legitimate
+Error: Individual: I13: US11: Husband has committed bigamy
+Error: Family: F15: US04: Divorced 2004-09-5 Before Married 2005-04-2
+Error: Family: F16: US05: Married 2010-04-2 After Husband I32's Death 2002-05-32
+Error: US42: Date Provided 2012-09-31 is not legitimate
+Error: Family: F17: US13: Individual I39 has sibling(s) with a birthday too close to their birthday 1996-12-20
+Error: Individual: I2: US11: Husband has committed bigamy
+Individuals
++-----+--------------------+--------+------------+-----+-------+------------+-------+---------+
+| ID  |        Name        | Gender |  Birthday  | Age | Alive |   Death    | Child | Spouse  |
++-----+--------------------+--------+------------+-----+-------+------------+-------+---------+
+| I1  |   Barry /Smith/    |   M    | 1996-04-11 | 26  | True  |     NA     |  F1   |   NA    |
+| I2  |   Milind /Smith/   |   M    | 1974-06-18 | 48  | True  |     NA     |  F2   | {'F1'}  |
+| I3  |   Aparna /Jones/   |   F    | 1974-06-22 | 48  | True  |     NA     |  F3   | {'F1'}  |
+| I4  |   Soham /Smith/    |   M    | 2002-04-10 | 20  | True  |     NA     |  F1   | {'F4'}  |
+| I5  |  Manohar /Smith/   |   M    | 1952-07-14 | 70  | True  |     NA     |  F5   | {'F2'}  |
+| I6  |   Gita /Chavan/    |   F    | 1954-05-1  | 68  | True  |     NA     |  F6   | {'F3'}  |
+| I7  |   Manya /Chavan/   |   M    | 1662-02-10 | 360 | False | 1946-08-6  |  NA   | {'F6'}  |
+| I8  |  Bheema /Chavan/   |   F    | 1934-03-4  | 88  | False | 1946-06-10 |  NA   | {'F6'}  |
+| I9  |  Rambhau /Jones/   |   M    | 1948-09-10 | 74  | True  |     NA     |  NA   | {'F3'}  |
+| I10 |   Savita /Jones/   |   F    | 1950-05-5  | 72  | True  |     NA     |  NA   |   NA    |
+| I11 |    Atul /Jones/    |   M    | 1976-10-4  | 46  | True  |     NA     |  F3   | {'F7'}  |
+| I12 |  Pratima /Jones/   |   F    | 1980-07-28 | 42  | True  |     NA     |  NA   | {'F7'}  |
+| I13 |   Vedant /Jones/   |   M    | 2006-07-14 | 16  | True  |     NA     |  F7   | {'F8'}  |
+| I14 |   Rayan /Rogers/   |   M    | 2008-12-12 | 14  | True  |     NA     |  F9   | {'F8'}  |
+| I15 |    Rina /Jones/    |   F    | 1978-12-10 | 44  | True  |     NA     |  F3   | {'F10'} |
+| I16 |  Deepak /Rogers/   |   M    | 1978-02-2  | 44  | True  |     NA     |  NA   | {'F9'}  |
+| I17 |    Baap /Smith/    |   M    | 1940-09-5  | 82  | False | 2002-02-2  |  NA   | {'F5'}  |
+| I18 |   Asana /Smith/    |   F    | 1945-03-4  | 77  | False | 2005-05-11 |  NA   | {'F5'}  |
+| I19 |  Rajaram /Smith/   |   M    | 1950-11-20 | 72  | True  |     NA     |  F5   | {'F12'} |
+| I20 |   Meenal /Smith/   |   F    | 1968-11-25 | 54  | True  |     NA     |  NA   | {'F11'} |
+| I21 | Shashikala /Patil/ |   F    | 1964-07-5  | 58  | True  |     NA     |  NA   | {'F12'} |
+| I22 |   Aditya /Smith/   |   M    | 1970-04-19 | 52  | False | 2006-02-4  |  F12  | {'F13'} |
+| I23 |   Harsh /Smith/    |   M    | 2000-09-9  | 22  | True  |     NA     |  F13  |   NA    |
+| I24 | Meenakshi /Smith/  |   F    | 1970-06-17 | 52  | True  |     NA     |  NA   | {'F13'} |
+| I25 |  Pritisha /Smith/  |   F    | 1992-07-4  | 30  | True  |     NA     |  F13  | {'F14'} |
+| I26 |   Nikhil /Mali/    |   M    | 1992-10-6  | 30  | True  |     NA     |  NA   | {'F14'} |
+| I27 |   Disha /Smith/    |   F    | 1990-08-21 | 32  | True  |     NA     |  F13  |   NA    |
+| I28 |   Rahul /Smith/    |   M    | 1988-07-10 | 34  | True  |     NA     |  F11  |   NA    |
+| I29 |  Priyanka /Smith/  |   F    | 1985-08-16 | 37  | True  |     NA     |  F11  |   NA    |
+| I30 |  Manisha /Smith/   |   F    | 1960-05-8  | 62  | True  |     NA     |  F5   | {'F16'} |
+| I31 |     Manoj /Ho/     |   M    | 1965-07-32 | 57  | True  |     NA     |  NA   | {'F15'} |
+| I32 |  Pramod /Mathur/   |   M    | 1955-11-31 | 67  | False | 2002-05-32 |  NA   | {'F16'} |
+| I33 |   Dyuti /Mathur/   |   F    | 1980-06-7  | 42  | True  |     NA     |  F16  |   NA    |
+| I34 |    Dishti /Ho/     |   F    | 1989-08-6  | 33  | True  |     NA     |  F15  | {'F10'} |
+| I35 |   Mrunal /Smith/   |   M    | 1996-04-11 | 26  | True  |     NA     |  F1   |   NA    |
+| I36 |   Mrunal /Smith/   |   M    | 1996-04-11 | 26  | True  |     NA     |  F17  |   NA    |
+| I37 |  Manisha /Smith/   |   F    | 1960-05-8  | 62  | True  |     NA     |  F5   |   NA    |
+| I38 |   Thomas /Smith/   |   M    | 1996-04-12 | 26  | True  |     NA     |  F17  |   NA    |
+| I39 |   Manny /Smith/    |   M    | 1996-12-20 | 26  | True  |     NA     |  F17  |   NA    |
+| I40 |   Roxanne /Luna/   |   F    | 1975-12-20 | 47  | True  |     NA     |  F17  |   NA    |
+| I41 |   Jim /Halpert/    |   M    | 1947-12-20 | 75  | True  |     NA     |  NA   |   NA    |
++-----+--------------------+--------+------------+-----+-------+------------+-------+---------+
+Families
++-----+------------+------------+------------+-----------------+---------+--------------------+------------------------------+
+| ID  |  Married   |  Divorced  | Husband ID |  Husband Name   | Wife ID |     Wife Name      |           Children           |
++-----+------------+------------+------------+-----------------+---------+--------------------+------------------------------+
+| F1  | 1999-04-1  |     NA     |     I2     | Milind /Smith/  |   I3    |   Aparna /Jones/   |     ['I1', 'I4', 'I35']      |
+| F2  | 1977-03-1  |     NA     |     I5     | Manohar /Smith/ |   I6    |   Gita /Chavan/    |            ['I2']            |
+| F3  | 1973-04-1  |     NA     |     I9     | Rambhau /Jones/ |   I6    |   Gita /Chavan/    |     ['I3', 'I11', 'I15']     |
+| F4  | 2016-02-30 |     NA     |    I13     | Vedant /Jones/  |   I4    |   Soham /Smith/    |              []              |
+| F5  | 1965-04-1  |     NA     |    I17     |  Baap /Smith/   |   I18   |   Asana /Smith/    | ['I5', 'I19', 'I30', 'I37']  |
+| F6  | 1947-04-1  |     NA     |     I7     | Manya /Chavan/  |   I8    |  Bheema /Chavan/   |            ['I6']            |
+| F7  | 2001-04-1  |     NA     |    I11     |  Atul /Jones/   |   I12   |  Pratima /Jones/   |           ['I13']            |
+| F8  | 2018-02-29 |     NA     |    I13     | Vedant /Jones/  |   I14   |   Rayan /Rogers/   |              []              |
+| F9  | 2003-04-1  |     NA     |    I16     | Deepak /Rogers/ |   I15   |    Rina /Jones/    |           ['I14']            |
+| F10 |     NA     |     NA     |    I34     |   Dishti /Ho/   |   I15   |    Rina /Jones/    |              []              |
+| F11 |     NA     |     NA     |    I19     | Rajaram /Smith/ |   I20   |   Meenal /Smith/   |        ['I28', 'I29']        |
+| F12 |     NA     |     NA     |    I19     | Rajaram /Smith/ |   I21   | Shashikala /Patil/ |           ['I22']            |
+| F13 | 1995-04-1  |     NA     |    I22     | Aditya /Smith/  |   I24   | Meenakshi /Smith/  |    ['I23', 'I25', 'I27']     |
+| F14 | 2018-04-1  |     NA     |    I26     |  Nikhil /Mali/  |   I25   |  Pritisha /Smith/  |              []              |
+| F15 | 2005-04-2  | 2004-09-5  |    I31     |   Manoj /Ho/    |   I30   |  Manisha /Smith/   |           ['I34']            |
+| F16 | 2010-04-2  | 2012-09-31 |    I32     | Pramod /Mathur/ |   I30   |  Manisha /Smith/   |           ['I33']            |
+| F17 |     NA     |     NA     |     NA     |       NA        |   NA    |         NA         | ['I36', 'I38', 'I39', 'I40'] |
+| F18 | 2000-07-5  |     NA     |     I2     | Milind /Smith/  |   I40   |   Roxanne /Luna/   |              []              |
+| F19 | 2003-09-20 |     NA     |    I41     |  Jim /Halpert/  |   I18   |   Asana /Smith/    |              []              |
++-----+------------+------------+------------+-----------------+---------+--------------------+------------------------------+
